@@ -339,5 +339,14 @@
     </div>
   </div>
 </body>
-
+<script>
+  const dateInput = document.getElementById('date');
+  dateInput.addEventListener('change', function () {
+    if (this.value) {
+      this.style.color = 'black';
+    } else {
+      this.style.color = 'white';
+    }
+  });
+</script>
 </html>
