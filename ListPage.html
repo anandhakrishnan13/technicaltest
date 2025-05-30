@@ -131,10 +131,17 @@
       margin-right: 20px;
     }
 
-    #action {
+    .action {
       width: 28px;
       height: 32px;
+      transition: filter 0.3s ease, transform 0.3s ease;
     }
+
+    .action:hover {
+      filter: brightness(0.8);
+      transform: scale(1.2);
+    }
+
 
     .nav-tabs .nav-link.active {
       background-color: #fef1cc !important;
@@ -213,18 +220,19 @@
           <td>ABC</td>
           <td>IT</td>
           <td>01-04-2024</td>
-          <td><img src="./icons8-eye-48.png" id="action">
-            <img src="./icons8-create-24.png" id="action">
-            <img src="./icons8-trash-50.png" id="action">
+          <td>
+            <img src="./icons8-eye-48.png" class="action">
+            <img src="./icons8-create-24.png" class="action">
+            <img src="./icons8-trash-50.png" class="action">
           </td>
         </tr>
         <tr>
-          <td>ABC</td>
-          <td>IT</td>
-          <td>01-04-2024</td>
-          <td><img src="./icons8-eye-48.png" id="action">
-            <img src="./icons8-create-24.png" id="action">
-            <img src="./icons8-trash-50.png" id="action">
+          <td>PQR</td>
+          <td>Sales</td>
+          <td>08-08-2016</td>
+          <td><img src="./icons8-eye-48.png" class="action">
+            <img src="./icons8-create-24.png" class="action">
+            <img src="./icons8-trash-50.png" class="action">
           </td>
         </tr>
       </tbody>
