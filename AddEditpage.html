@@ -11,6 +11,7 @@
     body {
       background-color: #fef1cc;
     }
+
     .container1 {
       display: flex;
       height: 10vh;
@@ -128,6 +129,7 @@
       color: white;
     }
 
+
     #add {
       width: 300px;
       height: 150px;
@@ -230,12 +232,15 @@
       color: black;
       font-weight: light;
     }
-
+    .outer-back:hover{
+      border: 3px solid blue;
+    }
     .button {
       display: flex;
       margin-top: 170px;
     }
   </style>
+
 </head>
 
 <body>
@@ -339,7 +344,7 @@
     </div>
   </div>
 </body>
-<script>
+  <script>
   const dateInput = document.getElementById('date');
   dateInput.addEventListener('change', function () {
     if (this.value) {
