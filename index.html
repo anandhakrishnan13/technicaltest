@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+  <style>
+    body {
+      background-color: #fef1cc;
+    }
+
+    .container1 {
+      display: flex;
+      height: 10vh;
+      flex-wrap: nowrap;
+    }
+
+    .login {
+      width: 90%;
+    }
+
+    .login img {
+      width: 35px;
+      margin-top: 10px;
+    }
+
+    .round img {
+      width: 30px;
+    }
+
+    ul {
+      list-style-image: url(icons8-file-50.png);
+    }
+
+    .container2 {
+      display: flex;
+      height: 10vh;
+      flex-wrap: nowrap;
+      margin-top: 20px;
+    }
+
+    #address {
+      width: 90%;
+      border: 1px solid grey;
+      border-radius: 5px;
+      color: rgb(110, 110, 110);
+      height: 40px;
+      margin-right: 25px;
+      margin-top: 15px;
+      margin-left: -30px;
+      float: right;
+    }
+
+    .icons {
+      width: 175px;
+      margin-top: 15px;
+      margin-left: 20px;
+    }
+
+    #arrow {
+      width: 30px;
+    }
+
+    #rotate {
+      width: 40px;
+    }
+
+    #file {
+      width: 30px;
+    }
+
+    .container3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 90px;
+    }
+
+    .pass {
+      margin-left: -90px;
+    }
+
+    #username {
+      width: 275px;
+    }
+
+    .nav-tabs .nav-link.active {
+      background-color: #fef1cc !important;
+      border-color: gray gray #fef1cc gray;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: black;
+      text-decoration: none;
+    }
+
+    .outer-div {
+      width: 105px;
+      height: 50px;
+      background: linear-gradient(to bottom, #a3d9fb, #7eb9de);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: inset -2px -2px 4px #ffffff66, inset 2px 2px 4px #33333333;
+      margin-left: 75px;
+    }
+
+    .inner-div {
+      width: 80px;
+      height: 30px;
+      background-color: #a3d9fb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      font-weight: light;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container1">
+    <div class="login">
+      <ul class="nav nav-tabs" style="padding-right: 300px; margin-left: 50px; margin-top: 20px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"><img src="./icons8-file-50.png" id="file" alt="" />Login
+            Page</a>
+        </li>
+      </ul>
+    </div>
+    <div class="round">
+      <img src="./icons8-round-50.png" alt="" />
+      <img src="./icons8-round-50.png" alt="" />
+      <img src="./icons8-round-5.png" alt="" />
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="icons">
+      <img src="./icons8-arrow-2.png" id="arrow" alt="" />
+      <img src="./icons8-arrow-24.png" id="arrow" alt="" />
+      <img src="./icons8-rotate-64.png" id="rotate" alt="" />
+    </div>
+    <div id="address">
+      <img src="./icons8-file-50.png" id="file" alt="" />https://www.newel.com/Login
+    </div>
+  </div>
+  <hr />
+  <div class="container3">
+    <div class="username">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Registered Email ID/ Mobile No" />
+      <br />
+      <br />
+    </div>
+    <div class="pass">
+      <label for="password">Password:</label>
+      <input type="password" id="password" /><br />
+      <br />
+      <div class="outer-div">
+        <div class="inner-div">
+          <a href="./ListPage.html">
+          Login
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
